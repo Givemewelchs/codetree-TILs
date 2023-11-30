@@ -22,6 +22,7 @@ int fun(int *x, int *y, int n, int m)
     {
         if(x[i]!=y[i]) return 0;
     }
+    return 1;
 }
 
 int main() {
