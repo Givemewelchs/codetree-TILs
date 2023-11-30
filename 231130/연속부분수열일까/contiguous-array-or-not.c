@@ -20,7 +20,7 @@ int fun(int *x, int *y, int n, int m)
     if(m-start<m-1) return 0;
     for(i=start+1;i<n;i++)
     {
-        if(x[i]!=y[i]) return 0;
+        if(x[i]!=y[i-start]) return 0;
     }
     return 1;
 }
